@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import samiwazni from "../components/samiwazni.jpg"
+import samiwazni from "../Components/samiwazni.jpg"
 
 const Hero = () => {
   return (

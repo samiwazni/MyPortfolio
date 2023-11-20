@@ -1,6 +1,6 @@
 import './App.css';
-import Hero from "./components/Hero";
-import Form from "./components/Form";
+import Hero from "./Components/Hero";
+import Form from "./Components/Form";
 
 const App = () => {
   return (
