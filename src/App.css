@@ -1,7 +1,6 @@
-body {
-  background-color: #222831;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4.5rem;
 }
 
 p {
@@ -19,137 +18,41 @@ h3 {
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
-.Hero {
+
+
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
   display: flex;
-  text-align: left;
-  width: 60%;
-  padding: 60px;
-  margin: 0 auto;
-}
-
-.Hero-text {
-  padding-top: 100px;
-  padding-right: 100px;
-}
-
-.Hero img {
-  width: 400px;
-  border-radius: 5px;
-  box-shadow: rgba(196, 196, 196, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
-
-.Hero button {
-  all: unset;
-  width: 100px;
-  height: 30px;
-  font-size: 16px;
-  background: transparent;
-  border: none;
-  position: relative;
-  color: #f0f0f0;
-  cursor: pointer;
-  z-index: 1;
-  padding: 10px 20px;
-  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  white-space: nowrap;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
 }
 
-button::after,
-button::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -99999;
-  transition: all .4s;
-}
-
-button::before {
-  transform: translate(0%, 0%);
-  width: 100%;
-  height: 100%;
-  background: #29a19c;
-  border-radius: 10px;
-}
-
-button::after {
-  transform: translate(10px, 10px);
-  width: 35px;
-  height: 35px;
-  background: #ffffff15;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 50px;
-}
-
-button:hover::before {
-  transform: translate(5%, 20%);
-  width: 110%;
-  height: 110%;
-}
-
-button:hover::after {
-  border-radius: 10px;
-  transform: translate(0, 0);
-  width: 100%;
-  height: 100%;
-}
-
-button:active::after {
-  transition: 0s;
-  transform: translate(0, 5%);
-}
-
-@media screen and (max-width: 780px) {
-  .Hero {
-    display: block;
-    width: 95%;
-    padding: 50px 10px;
-  }
-
-  .Hero img {
-    margin-top: 50px;
-    max-width: 95%;
-  }
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar a {
   color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Media query for responsive behavior */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
   }
 
-  to {
-    transform: rotate(360deg);
+  .navbar a {
+    width: 100%;
+    text-align: center;
   }
 }

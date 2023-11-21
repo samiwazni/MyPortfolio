@@ -1,18 +1,19 @@
 import React, { useState } from "react";
-import samiwazni from "../Components/samiwazni.jpg"
+import "../Style/style.css"
 
 const Hero = () => {
   return (
-    <div className="Hero">
-      <div className="Hero-text">
-        <h3>I am a Software Engeneer</h3>
-        <h1>My name is Sami Wazni</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since</p>
-        <button>Contact Me!</button>
-      </div>
-      <div>
-        <img src={samiwazni} />
+    <div className="Container">
+      <div className="Hero">
+        <div className="Hero-text">
+          <h3>I am a Software Engeneer</h3>
+          <h1>Sami Wazni</h1>
+          <p>
+            I am currently studying ICT Engineering at Turku University of
+            Applied Sciences and have a strong interest in software engineering.
+          </p>
+          <button>Contact Me!</button>
+        </div>
       </div>
     </div>
   );
