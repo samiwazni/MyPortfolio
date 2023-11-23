@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../Style/style.css"
 import { NavLink } from "react-router-dom";
 import sami from "../Images/sami.JPEG"
 

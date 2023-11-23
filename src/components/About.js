@@ -1,10 +1,10 @@
 import React from "react";
-import "../Style/style.css";
 import { NavLink } from "react-router-dom";
 import { IoPersonOutline } from "react-icons/io5";
 import { IoMdSquareOutline } from "react-icons/io";
 import { MdCastForEducation } from "react-icons/md";
 import { TfiEmail } from "react-icons/tfi";
+import "../Style/style.css";
 
 const About = () => {
   return (

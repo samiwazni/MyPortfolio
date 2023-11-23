@@ -3,6 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import { GrHomeRounded } from "react-icons/gr";
 import { TfiEmail } from "react-icons/tfi";
 import { IoPersonOutline } from "react-icons/io5";
+import { PiProjectorScreenChart } from "react-icons/pi";
 import { BsBack } from "react-icons/bs";
 
 const Nav = () => {
@@ -30,6 +31,14 @@ const Nav = () => {
             <a className="link">
             <BsBack />
               <span>Skills</span>
+            </a>
+          </li>
+        </NavLink>
+        <NavLink to="/projects">
+          <li>
+            <a className="link">
+            <PiProjectorScreenChart />
+              <span>Projects</span>
             </a>
           </li>
         </NavLink>

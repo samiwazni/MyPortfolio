@@ -4,7 +4,6 @@ import { IoLogoGithub } from "react-icons/io";
 import { CiLinkedin } from "react-icons/ci";
 import { MdOutlineEmail } from "react-icons/md";
 import { MdOutlinePhoneEnabled } from "react-icons/md";
-import "../Style/style.css";
 
 const Form = () => {
   const form = useRef();
@@ -134,7 +133,7 @@ const Form = () => {
 
             <div className="input-data">
               <input
-                type="text"
+                type="number"
                 name="user_number"
                 required
                 onChange={handleInputChange}
