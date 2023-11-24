@@ -36,7 +36,7 @@ The EmailJS functionality allows users to send emails through the application. F
 Acknowledgments
 
 # To run the project 
-git clone https://github.com/](https://github.com/samiwazni/MyPortfolio)
+git clone https://github.com/samiwazni/MyPortfolio.git
 cd my-draivi-portfolio
 
 # To run the project. In the project directory, you can run:
