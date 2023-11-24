@@ -23,7 +23,7 @@ To develop the EmailJS to your needs.
 - Go to https://www.emailjs.com/.
 - Create an account.
 - Create a template.
-- Replace the emailjs IDs
+- Replace the emailjs IDs in Form.js
 
 
 Usage
