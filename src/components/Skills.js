@@ -10,7 +10,7 @@ const Skills = () => {
         <div className="ag-courses_item">
             <a href="#" className="ag-courses-item_link">
               <div className="ag-courses-item_bg"></div>
-              <div className="ag-courses-item_title">Full-stuck</div>
+              <div className="ag-courses-item_title">Full-Stack</div>
               <div className="ag-courses-item_date-box">
                 Start:
                 <span className="ag-courses-item_date"> 01.09.2022</span>

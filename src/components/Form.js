@@ -83,7 +83,7 @@ const Form = () => {
   return (
     <div className="Skills">
       <h1>Contact me!</h1>
-      <p>Form more information you can contact me by filling the form. Or send me an email at:</p>
+      <p>For further details, please don't hesitate to get in touch by completing the contact form. Alternatively, you can reach me via the provided contact information.</p>
       <ul className="Contact-info">
         <li><a href="#"><MdOutlineEmail />&nbsp;&nbsp;<span>Email:&nbsp;&nbsp;</span>sami.wazni@edu.turkuamk.fi</a></li>
         <li><a href="tel:+358449899939"><MdOutlinePhoneEnabled />&nbsp;&nbsp;<span>Phone:&nbsp;&nbsp;</span>+358 44 9899 939</a></li>

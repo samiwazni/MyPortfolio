@@ -206,6 +206,7 @@ button:active::after {
         margin: 0 auto;
         padding-top: 100px;
     }
+    
     .Hero {
         width: 30%;
     }
