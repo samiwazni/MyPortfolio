@@ -1,10 +1,10 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Nav from "./Components/Nav";
-import Hero from "./Components/Hero";
-import About from "./Components/About";
-import Skills from "./Components/Skills";
-import Projects from "./Components/Projects";
-import Form from "./Components/Form";
+import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Form from "./components/Form";
 import "./App.css";
 
 const App = () => {
