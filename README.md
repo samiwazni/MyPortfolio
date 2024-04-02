@@ -4,7 +4,8 @@ Overview
 This repository hosts the code for my front-end portfolio application developed as part of my thesis on "Development of a react-based portfolio for front-end usage" The application serves as a showcase of my skills, projects, and achievements in the field of front-end development.
 
 Thesis Title
-# Innovations in Front-End: My Draivi Front-End Journey
+# Development of a react-based portfolio for front-end usage 
+<a href="https://www.theseus.fi/handle/10024/817654">Thesis</a>
 
 Application Features
 
